@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ishimizu — 石水 | “Stone Water” Bottles (EN/FR)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+      content="Ishimizu (石水): premium borosilicate glass bottles inspired by Japan. Heiwa, Kanjo, Hogo with gemstones in a separate chamber." />
+    <link rel="canonical" href="https://ishimizu.be/">
+    <meta property="og:title" content="Ishimizu — 石水 | “Stone Water” Bottles" />
+    <meta property="og:description"
+      content="Premium borosilicate bottles with gemstones in a separate chamber. Heiwa, Kanjo, Hogo." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/og-cover.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <meta name="theme-color" content="#fbf9f5">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Noto+Serif+JP:wght@400;600&display=swap"
+      rel="stylesheet">
+    <style>
+      :root {
+        --brand-ink: #4f3724;
+        --brand-accent: #98a08c;
+        --brand-accent-20: #e6cab7;
+        --bg: #fbf9f5;
+        --bg-contrast: #f3eee8;
+        --text: #4f3724;
+        --muted: #8f97a8;
+        --radius: 14px;
+        --shadow: 0 10px 25px rgba(0, 0, 0, .08)
+      }
+
+      * {
+        box-sizing: border-box
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Inter, system-ui, sans-serif;
+        line-height: 1.6
+      }
+
+      .container {
+        width: min(1180px, 92vw);
+        margin-inline: auto
+      }
+
+      header {
+        position: sticky;
+        top: 0;
+        background: rgba(251, 249, 245, .82);
+        backdrop-filter: blur(8px);
+        border-bottom: 1px solid #e8dfd6;
+        z-index: 50
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: .7rem
+      }
+
+      .brand img {
+        width: 160px
+      }
+
+      .lang-switch {
+        display: flex;
+        gap: 8px
+      }
+
+      .lang-switch button {
+        border: 1px solid #d9cfc6;
+        border-radius: 999px;
+        background: #fff;
+        color: var(--brand-ink);
+        padding: .35rem .6rem;
+        font-weight: 700;
+        cursor: pointer
+      }
+
+      .lang-switch button.active {
+        background: var(--brand-ink);
+        color: #fff;
+        border-color: var(--brand-ink)
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: .4rem;
+        border-radius: 999px;
+        padding: .6rem 1rem;
+        font-weight: 700;
+        border: 2px solid var(--brand-ink);
+        color: var(--brand-ink);
+        text-decoration: none
+      }
+
+      .btn.primary {
+        background: var(--brand-ink);
+        color: #fff
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 1.1fr .9fr;
+        gap: 2rem;
+        align-items: center;
+        padding: 5rem 0 3rem
+      }
+
+      @media (max-width:980px) {
+        .hero {
+          grid-template-columns: 1fr;
+          padding: 2.5rem 0
+        }
+      }
+
+      .hero h1 {
+        font-family: 'Noto Serif JP', serif;
+        color: var(--brand-ink);
+        font-size: clamp(2rem, 4vw, 3.3rem);
+        margin: .6rem 0
+      }
+
+      .hero .tag {
+        display: inline-block;
+        background: var(--brand-accent-20);
+        padding: .35rem .7rem;
+        border-radius: 999px;
+        font-weight: 700
+      }
+
+      .hero-media {
+        border-radius: var(--radius);
+        overflow: hidden;
+        background: #fff;
+        box-shadow: var(--shadow);
+        min-height: 320px;
+        display: grid;
+        place-items: center
+      }
+
+      section {
+        padding: 3.2rem 0
+      }
+
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin-bottom: 1.4rem
+      }
+
+      .section-head h2 {
+        font-family: 'Noto Serif JP', serif;
+        color: var(--brand-ink)
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px
+      }
+
+      @media (max-width:980px) {
+        .cards {
+          grid-template-columns: 1fr
+        }
+      }
+
+      .card {
+        background: #fff;
+        border: 1px solid #e8dfd6;
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: var(--shadow)
+      }
+
+      .card .media {
+        aspect-ratio: 4/3;
+        background: #f7f3ee;
+        display: grid;
+        place-items: center
+      }
+
+      .card .content {
+        padding: 1rem
+      }
+
+      .pill {
+        display: inline-block;
+        border: 1px solid #e0d6cc;
+        border-radius: 999px;
+        padding: .2rem .6rem;
+        font-weight: 700;
+        color: #6b5a4f;
+        font-size: .85rem
+      }
+
+      .note {
+        color: #766c64;
+        font-size: .95rem
+      }
+
+      footer {
+        border-top: 1px solid #e8dfd6;
+        background: #fff;
+        padding: 2rem 0;
+        color: #5a5149
+      }
+
+      picture img {
+        width: 100%;
+        height: auto;
+        display: block
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <div class="brand"><img src="assets/logo.png" alt="Ishimizu logo"><span
+            style="font-family:'Noto Serif JP',serif">石水</span></div>
+        <div style="display:flex;align-items:center;gap:12px">
+          <div class="lang-switch" aria-label="Language">
+            <button class="active" data-lang="en" aria-pressed="true">EN</button>
+            <button data-lang="fr" aria-pressed="false">FR</button>
+          </div>
+          <a class="btn" href="#models" data-i18n="nav_models">Models</a>
+          <a class="btn primary" href="#signup" data-i18n="nav_preorder">Pre‑order</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div>
+          <span class="tag" data-i18n="hero_tag">石水 — ishi‑mizu: “stone water”</span>
+          <h1 data-i18n="hero_title">Borosilicate bottles, gemstones & mindful hydration</h1>
+          <p data-i18n="hero_sub">Inspired by Japan’s nature and craft, Ishimizu bottles pair high‑quality borosilicate
+            glass with gemstones held in a separate chamber—never in contact with your drink.</p>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1rem">
+            <a class="btn primary" href="#models" data-i18n="hero_cta1">Discover the models</a>
+            <a class="btn" href="#story" data-i18n="hero_cta2">Our story & inspiration</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <picture>
+            <source srcset="assets/heiwa-1600.webp 1600w, assets/heiwa-1000.webp 1000w, assets/heiwa-600.webp 600w"
+              type="image/webp">
+            <source srcset="assets/heiwa-1600.jpg 1600w, assets/heiwa-1000.jpg 1000w, assets/heiwa-600.jpg 600w"
+              type="image/jpeg">
+            <img src="assets/heiwa-1000.jpg" alt="Heiwa bottle with bell-shaped gemstone chamber" loading="eager" />
+          </picture>
+        </div>
+      </section>
+
+      <section id="models">
+        <div class="container">
+          <div class="section-head">
+            <h2 data-i18n="models_h2">Three models, three intentions</h2>
+            <p class="note" data-i18n="models_note">The gemstones are enclosed in a separate container inside each
+              bottle and never come into contact with the beverage.</p>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <div class="media">
+                <picture>
+                  <source srcset="assets/heiwa-1000.webp 1000w, assets/heiwa-600.webp 600w" type="image/webp">
+                  <source srcset="assets/heiwa-1000.jpg 1000w, assets/heiwa-600.jpg 600w" type="image/jpeg">
+                  <img src="assets/heiwa.jpg"
+                    alt="Heiwa (peace) — single-wall bottle, bell-shaped chamber with gemstone gravels">
+                </picture>
+              </div>
+              <div class="content">
+                <span class="pill">Heiwa — 平和</span>
+                <h3 data-i18n="heiwa_title">Heiwa (peace)</h3>
+                <ul class="note">
+                  <li data-i18n="heiwa_f1">Single‑wall borosilicate</li>
+                  <li data-i18n="heiwa_f2">Bell‑shaped upper chamber with gemstone gravels</li>
+                  <li data-i18n="heiwa_f3">Lightweight & minimalist</li>
+                </ul>
+                <p class="note" data-i18n="heiwa_note">Gemstones: amethyst, rose quartz, rock crystal, etc.</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="media">
+                <picture>
+                  <source srcset="assets/kanjo-1000.webp 1000w, assets/kanjo-600.webp 600w" type="image/webp">
+                  <source srcset="assets/kanjo-1000.jpg 1000w, assets/kanjo-600.jpg 600w" type="image/jpeg">
+                  <img src="assets/kanjo.jpg"
+                    alt="Kanjo (emotion) — single-wall bottle with gemstone base container (rose quartz)">
+                </picture>
+              </div>
+              <div class="content">
+                <span class="pill">Kanjo — 感情</span>
+                <h3 data-i18n="kanjo_title">Kanjo (emotion)</h3>
+                <ul class="note">
+                  <li data-i18n="kanjo_f1">Single‑wall borosilicate</li>
+                  <li data-i18n="kanjo_f2">Gemstone pebbles in base container</li>
+                  <li data-i18n="kanjo_f3">Balanced feel & everyday use</li>
+                </ul>
+                <p class="note" data-i18n="kanjo_note">Gemstones: rose quartz, aventurine, citrine, amethyst, etc.</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="media">
+                <picture>
+                  <source srcset="assets/hogo-1000.webp 1000w, assets/hogo-600.webp 600w" type="image/webp">
+                  <source srcset="assets/hogo-1000.jpg 1000w, assets/hogo-600.jpg 600w" type="image/jpeg">
+                  <img src="assets/hogo.jpg" alt="Hogo (protection) — double-wall bottle, gemstone base chamber">
+                </picture>
+              </div>
+              <div class="content">
+                <span class="pill">Hogo — 保護</span>
+                <h3 data-i18n="hogo_title">Hogo (protection)</h3>
+                <ul class="note">
+                  <li data-i18n="hogo_f1">Double‑wall borosilicate for insulation</li>
+                  <li data-i18n="hogo_f2">Gemstone pebbles</li>
+                  <li data-i18n="hogo_f3">Comfortable grip, reduced condensation</li>
+                </ul>
+                <p class="note" data-i18n="hogo_note">Gemstones: black tourmaline, rock crystal, amethyst, etc.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="signup">
+        <div class="container">
+          <div class="section-head">
+            <h2 data-i18n="signup_h2">Be first to know</h2>
+          </div>
+          <form onsubmit="event.preventDefault();this.nextElementSibling.textContent=i18n[currentLang].signup_ok">
+            <input required type="email" placeholder="you@example.com"
+              style="padding:.9rem;border:1px solid #e0d6cc;border-radius:12px;width:min(420px,90vw)">
+            <button class="btn primary" style="margin-left:8px" data-i18n="signup_cta">Notify me</button>
+          </form>
+          <p class="note"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <strong>Ishimizu</strong> <span style="font-family:'Noto Serif JP',serif">石水</span> · <a
+          href="mailto:hello@ishimizu.be">hello@ishimizu.be</a>
+        <p class="note" data-i18n="footer_disclaimer">Ishimizu shares cultural inspiration around gemstones. We make no
+          medical claims; stones never touch the liquid.</p>
+      </div>
+    </footer>
+
+    <script>
+      const i18n = {
+        en: { nav_models: "Models", nav_preorder: "Pre‑order", hero_tag: "石水 — ishi‑mizu: “stone water”", hero_title: "Borosilicate bottles, gemstones & mindful hydration", hero_sub: "Inspired by Japan’s nature and craft, Ishimizu bottles pair high‑quality borosilicate glass with gemstones held in a separate chamber—never in contact with your drink.", hero_cta1: "Discover the models", hero_cta2: "Our story & inspiration", models_h2: "Three models, three intentions", models_note: "The gemstones are enclosed in a separate container inside each bottle and never come into contact with the beverage.", heiwa_title: "Heiwa (peace)", heiwa_f1: "Single‑wall borosilicate", heiwa_f2: "Bell‑shaped upper chamber with gemstone gravels", heiwa_f3: "Lightweight & minimalist", heiwa_note: "Gemstones: amethyst, rose quartz, rock crystal, etc.", kanjo_title: "Kanjo (emotion)", kanjo_f1: "Single‑wall borosilicate", kanjo_f2: "Gemstone pebbles in base container", kanjo_f3: "Balanced feel & everyday use", kanjo_note: "Gemstones: rose quartz, aventurine, citrine, amethyst, etc.", hogo_title: "Hogo (protection)", hogo_f1: "Double‑wall borosilicate for insulation", hogo_f2: "Gemstone pebbles in base container", hogo_f3: "Comfortable grip, reduced condensation", hogo_note: "Gemstones: black tourmaline, rock crystal, amethyst, etc.", signup_h2: "Be first to know", signup_cta: "Notify me", signup_ok: "Thanks! You’ll hear from us soon.", footer_disclaimer: "Ishimizu shares cultural inspiration around gemstones. We make no medical claims; stones never touch the liquid." },
+        fr: { nav_models: "Modèles", nav_preorder: "Pré‑commande", hero_tag: "石水 — ishi‑mizu : « eau de pierre »", hero_title: "Bouteilles en verre borosilicate & pierres — une hydratation consciente", hero_sub: "Inspirées par la nature et la culture japonaises, les bouteilles Ishimizu associent un verre borosilicate de haute qualité à des pierres placées dans une chambre séparée — jamais en contact avec la boisson.", hero_cta1: "Découvrir les modèles", hero_cta2: "Notre histoire & inspiration", models_h2: "Trois modèles, trois intentions", models_note: "Les pierres sont enfermées dans un compartiment séparé à l’intérieur de chaque bouteille et ne sont jamais en contact avec la boisson.", heiwa_title: "Heiwa (paix)", heiwa_f1: "Paroi simple en borosilicate", heiwa_f2: "Chambre supérieure en cloche avec graviers de pierres", heiwa_f3: "Légère & minimaliste", heiwa_note: "Pierres : améthyste, quartz rose, cristal de roche, etc.", kanjo_title: "Kanjo (émotion)", kanjo_f1: "Paroi simple en borosilicate", kanjo_f2: "Galets de pierres dans un contenant à la base", kanjo_f3: "Équilibre & usage quotidien", kanjo_note: "Pierres : quartz rose, aventurine, citrine, améthyste, etc.", hogo_title: "Hogo (protection)", hogo_f1: "Double paroi en borosilicate pour une légère isolation", hogo_f2: "Galets de pierres dans un contenant à la base", hogo_f3: "Prise en main confortable, moins de condensation", hogo_note: "Pierres : tourmaline noire, cristal de roche, améthyste, etc.", signup_h2: "Soyez les premiers informés", signup_cta: "Prévenez‑moi", signup_ok: "Merci ! Nous vous écrirons bientôt.", footer_disclaimer: "Ishimizu partage une inspiration culturelle autour des pierres. Aucune allégation médicale ; les pierres ne touchent jamais la boisson." }
+      };
+      let currentLang = 'en';
+      const $ = (s) => Array.from(document.querySelectorAll(s));
+      function applyI18n() {
+        $('[data-i18n]').forEach(el => { const k = el.getAttribute('data-i18n'); const t = i18n[currentLang][k]; if (t) el.textContent = t; });
+      }
+      applyI18n();
+      document.querySelectorAll('.lang-switch button').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.lang-switch button').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentLang = btn.dataset.lang; applyI18n();
+        });
+      });
+    </script>
+  </body>
+</html>
