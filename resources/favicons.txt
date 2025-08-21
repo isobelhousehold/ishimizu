@@ -1,0 +1,22 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 48E6-6246
+
+ Directory of c:\DVT\besorunner\ishimizu\resources\favicons
+
+14/08/2025  10:31    <DIR>          .
+14/08/2025  10:31    <DIR>          ..
+14/08/2025  08:28            15.326 android-chrome-192x192.png
+14/08/2025  08:28            44.408 android-chrome-512x512.png
+14/08/2025  08:28            14.422 apple-touch-icon.png
+14/08/2025  08:28             7.298 boldened.png
+14/08/2025  08:28               582 favicon-16.png
+14/08/2025  08:28               582 favicon-16x16.png
+14/08/2025  08:28             1.546 favicon-32.png
+14/08/2025  08:28             1.546 favicon-32x32.png
+14/08/2025  08:28             2.858 favicon-48.png
+14/08/2025  08:28             2.858 favicon-48x48.png
+14/08/2025  08:28             4.011 favicon-64.png
+14/08/2025  08:28             4.011 favicon-64x64.png
+14/08/2025  08:28             5.051 favicon.ico
+              13 File(s)        104.499 bytes
+               2 Dir(s)  110.101.975.040 bytes free

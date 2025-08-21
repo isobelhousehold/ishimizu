@@ -1,0 +1,18 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 48E6-6246
+
+ Directory of c:\DVT\besorunner\ishimizu\resources\logo
+
+14/08/2025  10:22    <DIR>          .
+14/08/2025  10:22    <DIR>          ..
+14/08/2025  09:38           119.913 logo_ishimizu_beige.png
+14/08/2025  09:38             5.900 logo_ishimizu_beige.svg
+14/08/2025  09:38           120.067 logo_Ishimizu_brun.png
+14/08/2025  09:38             5.876 logo_ishimizu_brun.svg
+14/08/2025  10:10            39.970 logo_Ishimizu_fat_pebbles.png
+14/08/2025  09:47           946.309 logo_Ishimizu_grey.png
+14/08/2025  10:02            22.351 logo_Ishimizu_pebbles.png
+14/08/2025  10:18            27.917 logo_ishimizu_pebbles_square.png
+14/08/2025  10:22           425.034 logo_ishimizu_pebbles_square.psd
+               9 File(s)      1.713.337 bytes
+               2 Dir(s)  110.110.482.432 bytes free
