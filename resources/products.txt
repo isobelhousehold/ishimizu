@@ -1,0 +1,20 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 48E6-6246
+
+ Directory of c:\DVT\besorunner\ishimizu\resources\products
+
+14/08/2025  09:38    <DIR>          .
+14/08/2025  09:38    <DIR>          ..
+14/08/2025  09:38           142.665 HEIWA050S-G11.jpg
+14/08/2025  09:38           138.539 HEIWA050S-G13.jpg
+14/08/2025  09:38           156.137 HEIWA050S-G24.jpg
+14/08/2025  09:38           144.585 HEIWA050S-G40.jpg
+14/08/2025  09:38           160.404 HOGO030R-T06.jpg
+14/08/2025  09:38           131.710 HOGO030S-T01.jpg
+14/08/2025  09:38           119.037 HOGO030S-T03.jpg
+14/08/2025  09:38           127.571 KANJO045R-T02.jpg
+14/08/2025  09:38           127.333 KANJO045R-T03.jpg
+14/08/2025  09:38           133.536 KANJO045S-T07.jpg
+14/08/2025  09:38           142.212 KANJO045S-T08.jpg
+              11 File(s)      1.523.729 bytes
+               2 Dir(s)  110.106.525.696 bytes free

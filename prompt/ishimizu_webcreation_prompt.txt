@@ -1,0 +1,143 @@
+Create a presention website for new brand of water bottles.
+The brand is ishimizu.
+Domain is ishimizu.be
+
+Website should contain :
+* a home page presenting the brand with a carousel of life-style images, 
+* a page presenting the three model lines (Heiwa, Kanjo, Hogo, see descriptions below), 
+* a page presenting all the products (see details below)
+* a page presenting the different stones and their charactéristics (please find information and write a story about the spiritual and medical properties of each type of stone)
+* a page presenting the brand story and inspiration (elaborate a story about a couple investing itself in developing a brand out of passion for nature and wellness)
+
+Website should be multilingual (EN/FR/NL)
+Always bundle the code in a single zip file
+
+About the products
+Water bottles are made of high quality borosilicate glass and also contain gemstones.
+In japanese, ishimizu means "stone water" or "water from stones"
+The brand draws inspiration from Japanese culture and from it's beautiful nature. In particular mountain torrents where pure water flows and polishes natural stones
+
+Other than proposing a very nice and appealing object, the bottles are meant to appeal to people believing in the energies and properties of different types of stones.
+Some people believe the stone will have an effect on the beverage contained in the bottle.
+This needs to be emphasized in an indirect and subtle way.
+Also, gemstones are not directly in contact with the liquid in the bottle and can be changed or replaced easily.
+
+3 model lines of bottles :
+Heiwa (means peace) : single wall glass water bottle with gemstone gravels in a bell-shaped chamber
+Kanjo (means emotion) : single wall water bottle with gemstone pebbles in a container at the base of the bottle
+Hogo (means protection) : double wall water bottle with gemstone pebbles in a container at the base of the bottle
+
+
+RESOURCES
+
+Product information :
+Référence;Description;Capacity;Bottle_Color;Bottle_Finish;Stones_Name;Stones_Color;Stones_Type
+HEIWA050S-G11;Glass bottle bell HEIWA Aventurine 0.5 L;0.5 L;Stainless steel mat;Mat;Aventurine;Green;Gravel
+HEIWA050S-G13;Glass bottle bell HEIWA Rose Quartz 0.5 L;0.5 L;Stainless steel mat;Mat;Quartz;Rose;Gravel
+HEIWA050S-G40;Glass bottle bell HEIWA Amethyst 0.5 L;0.5 L;Stainless steel mat;Mat;Amethyst;Purple;Gravel
+HOGO030S-T01;Glass bottle natural stones HOGO Turquoise 0.30 L;0.3 L;Stainless steel mat;Mat;Turquoise;Blue;Tumbled
+KANJO045R-T02;Glass bottle KANJO clear quartz 0.45 L;0.45 L;Rose gold;Shiny;Quartz;White;Tumbled
+KANJO045R-T03;Glass bottle KANJO rose quartz 0.45 L;0.45 L;Rose gold;Shiny;Quartz;Rose;Tumbled
+HOGO030S-T03;Glass bottle natural stones HOGO Rose Quartz 0.30 L;0.3 L;Stainless steel mat;Mat;Quartz;Rose;Tumbled
+HOGO030R-T06;Glass bottle natural stones HOGO Aventurine 0.30 L;0.3 L;Rose gold;Shiny;Aventurine;Green;Tumbled
+KANJO045S-T07;Glass bottle KANJO amethyst 0.45 L;0.45 L;Stainless steel mat;Mat;Amethyst;Purple;Tumbled
+KANJO045S-T08;Glass bottle KANJO lapis lazuli 0.45 L;0.45 L;Stainless steel mat;Mat;Lapis Lazuli;Blue;Tumbled
+HEIWA050S-G24;Glass bottle bell HEIWA Apatite 0.5 L;0.5 L;Stainless steel mat;Mat;Apatite;Blue;Gravel
+
+Color chart :
+Hex #4f3724
+Hex #8f97a8
+Hex #98a08c
+Hex #e6cab7
+Hex #fbf9f5
+
+Fonts :
+Poppins SemiBold (for titles)
+Poppins Light 
+Poppins Regular
+Poopins Italic
+
+Logo files :
+logo/logo_ishimizu_beige.png (light beige color logo to display on dark background)
+logo/logo_ishimizu_beige.svg (idem in svg format)
+logo/logo_Ishimizu_brun.png (dark brown color logo to display on light background)
+logo/logo_ishimizu_brun.svg (idem in svg format)
+
+Product files (resolutions : 800x800 pixels)
+products/HEIWA050S-G11.jpg
+products/HEIWA050S-G13.jpg
+products/HEIWA050S-G24.jpg
+products/HEIWA050S-G40.jpg
+products/HOGO030R-T06.jpg
+products/HOGO030S-T01.jpg
+products/HOGO030S-T03.jpg
+products/KANJO045R-T02.jpg
+products/KANJO045R-T03.jpg
+products/KANJO045S-T07.jpg
+products/KANJO045S-T08.jpg
+
+Favicons files :
+favicons/android-chrome-192x192.png
+favicons/android-chrome-512x512.png
+favicons/apple-touch-icon.png
+favicons/favicon-16.png
+favicons/favicon-32.png
+favicons/favicon-48.png
+favicons/favicon.ico
+
+Carousel images files (resolutions : 2048x1536 pixels)
+lifestyles/HEIWA050S-G11_beachhouse04.jpg
+lifestyles/HEIWA050S-G11_buddah02.jpg
+lifestyles/HEIWA050S-G11_Greenplant04.jpg
+lifestyles/HEIWA050S-G11_meditation05.jpg
+lifestyles/HEIWA050S-G11_Minimalist02.jpg
+lifestyles/HEIWA050S-G13_abstract03.jpg
+lifestyles/HEIWA050S-G13_livingroom03.jpg
+lifestyles/HEIWA050S-G13_meditation03.jpg
+lifestyles/HEIWA050S-G13_plants01.jpg
+lifestyles/HEIWA050S-G13_snow01.jpg
+lifestyles/HEIWA050S-G24_livingroom01.jpg
+lifestyles/HEIWA050S-G24_mountainside02.jpg
+lifestyles/HEIWA050S-G24_sky01.jpg
+lifestyles/HEIWA050S-G24_wood04.jpg
+lifestyles/HEIWA050S-G24_wood2.jpg
+lifestyles/HEIWA050S-G40_kitchen01.jpg
+lifestyles/HEIWA050S-G40_livingroom02.jpg
+lifestyles/HEIWA050S-G40_livingroom04.jpg
+lifestyles/HEIWA050S-G40_minimalist04.jpg
+lifestyles/HOGO030R-T06_bathroom04.jpg
+lifestyles/HOGO030R-T06_buddah01.jpg
+lifestyles/HOGO030R-T06_candles02.jpg
+lifestyles/HOGO030R-T06_minimalist03.jpg
+lifestyles/HOGO030S-T01_livingroom02.jpg
+lifestyles/HOGO030S-T01_livingroom03.jpg
+lifestyles/HOGO030S-T01_minimalist01.jpg
+lifestyles/HOGO030S-T01_plants01.jpg
+lifestyles/HOGO030S-T03_beachhouse04.jpg
+lifestyles/HOGO030S-T03_beachhouse05.jpg
+lifestyles/HOGO030S-T03_livingroom04.jpg
+lifestyles/HOGO030S-T03_minimalist03.jpg
+lifestyles/KANJO045R-T02_livingroom01.jpg
+lifestyles/KANJO045R-T02_livingroom04.jpg
+lifestyles/KANJO045R-T02_livingroom08.jpg
+lifestyles/KANJO045R-T02_minimalist04.jpg
+lifestyles/KANJO045R-T02_spring01.jpg
+lifestyles/KANJO045R-T02_wood03.jpg
+lifestyles/KANJO045R-T03_beach02.jpg
+lifestyles/KANJO045R-T03_beach05.jpg
+lifestyles/KANJO045R-T03_beachhouse04.jpg
+lifestyles/KANJO045R-T03_minimalist01.jpg
+lifestyles/KANJO045R-T03_mountainchalet05.jpg
+lifestyles/KANJO045R-T03_snow01.jpg
+lifestyles/KANJO045R-T03_spa04.jpg
+lifestyles/KANJO045S-T07_bedroom02.jpg
+lifestyles/KANJO045S-T07_bedroom05.jpg
+lifestyles/KANJO045S-T07_computer03.jpg
+lifestyles/KANJO045S-T07_teapot01.jpg
+lifestyles/KANJO045S-T08_livingroom03.jpg
+lifestyles/KANJO045S-T08_meditation01.jpg
+lifestyles/KANJO045S-T08_mountainside02.jpg
+lifestyles/KANJO045S-T08_seaside01.jpg
+
+
+

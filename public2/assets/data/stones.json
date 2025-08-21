@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Aventurine",
+    "colors": [
+      "Green"
+    ],
+    "types": [
+      "Gravel",
+      "Tumbled"
+    ],
+    "note": "Often associated with calm and balance; many people choose it for a sense of optimism."
+  },
+  {
+    "name": "Quartz",
+    "colors": [
+      "Rose",
+      "White"
+    ],
+    "types": [
+      "Gravel",
+      "Tumbled"
+    ],
+    "note": "Clear and rose varieties are widely chosen by people who appreciate clarity or gentleness."
+  },
+  {
+    "name": "Amethyst",
+    "colors": [
+      "Purple"
+    ],
+    "types": [
+      "Gravel",
+      "Tumbled"
+    ],
+    "note": "Traditionally linked with serenity and reflection."
+  },
+  {
+    "name": "Turquoise",
+    "colors": [
+      "Blue"
+    ],
+    "types": [
+      "Tumbled"
+    ],
+    "note": "Frequently connected with travel and protection in various traditions."
+  },
+  {
+    "name": "Citrine",
+    "colors": [
+      "Yellow"
+    ],
+    "types": [
+      "Tumbled"
+    ],
+    "note": "Commonly selected for a bright, uplifting feel."
+  },
+  {
+    "name": "Apatite",
+    "colors": [
+      "Blue"
+    ],
+    "types": [
+      "Gravel"
+    ],
+    "note": "Sometimes chosen for focus and fresh momentum."
+  }
+]

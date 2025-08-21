@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" data-page="products">
+  <head>
+    <meta charset="utf-8" />
+    <title data-i18n="products.title">Products — Ishimizu Gemstone Bottles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" data-i18n="products.meta" content="Explore Ishimizu’s borosilicate bottles…" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;300italic;400italic&display=swap"
+      rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="favicons/favicon.ico">
+    <link rel="alternate" href="products.html?lang=en" hreflang="en" />
+    <link rel="alternate" href="products.html?lang=fr" hreflang="fr" />
+    <link rel="alternate" href="products.html?lang=nl" hreflang="nl" />
+    <link rel="alternate" href="products.html?lang=en" hreflang="x-default" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Ishimizu home">
+        <img src="logo/logo_Ishimizu_brun.png" alt="Ishimizu logo">
+      </a>
+      <nav class="main-nav">
+        <a href="index.html" data-i18n="common.nav.home">Home</a>
+        <a href="models.html" data-i18n="common.nav.models">Models</a>
+        <a class="active" href="products.html" data-i18n="common.nav.products">Products</a>
+        <a href="stones.html" data-i18n="common.nav.stones">Stones</a>
+        <a href="story.html" data-i18n="common.nav.story">Our Story</a>
+      </nav>
+      <div class="lang-switcher" role="group" aria-label="Language">
+        <label class="sr-only" for="lang-switch" data-i18n="common.langLabel">Language</label>
+        <select id="lang-switch">
+          <option value="en">EN</option>
+          <option value="fr">FR</option>
+          <option value="nl">NL</option>
+        </select>
+      </div>
+    </header>
+    <main class="page">
+      <header class="page-header">
+        <h1 data-i18n="products.header">Products</h1>
+        <p data-i18n="products.intro">Borosilicate glass…</p>
+      </header>
+      <section class="filters">
+        <div>
+          <label for="filter-line" data-i18n="products.filters.modelLabel">Model</label>
+          <select id="filter-line">
+            <option value="" data-i18n="products.filters.all">All</option>
+            <option value="Heiwa" data-i18n="products.filters.lines.Heiwa">Heiwa</option>
+            <option value="Kanjo" data-i18n="products.filters.lines.Kanjo">Kanjo</option>
+            <option value="Hogo" data-i18n="products.filters.lines.Hogo">Hogo</option>
+          </select>
+        </div>
+        <div>
+          <label for="filter-stone" data-i18n="products.filters.stoneLabel">Stone</label>
+          <select id="filter-stone">
+            <option value="" data-i18n="products.filters.all">All</option>
+            <option value="Aventurine" data-i18n="products.filters.stones.Aventurine">Aventurine</option>
+            <option value="Quartz" data-i18n="products.filters.stones.Quartz">Quartz</option>
+            <option value="Rose Quartz" data-i18n="products.filters.stones.Rose Quartz">Rose Quartz</option>
+            <option value="Clear Quartz" data-i18n="products.filters.stones.Clear Quartz">Clear Quartz</option>
+            <option value="Amethyst" data-i18n="products.filters.stones.Amethyst">Amethyst</option>
+            <option value="Turquoise" data-i18n="products.filters.stones.Turquoise">Turquoise</option>
+            <option value="Apatite" data-i18n="products.filters.stones.Apatite">Apatite</option>
+            <option value="Lapis Lazuli" data-i18n="products.filters.stones.Lapis Lazuli">Lapis Lazuli</option>
+          </select>
+        </div>
+        <div>
+          <label for="filter-capacity" data-i18n="products.filters.capacityLabel">Capacity</label>
+          <select id="filter-capacity">
+            <option value="" data-i18n="products.filters.all">All</option>
+            <option value="0.3 L" data-i18n="products.filters.caps.0.3 L">0.3 L</option>
+            <option value="0.45 L" data-i18n="products.filters.caps.0.45 L">0.45 L</option>
+            <option value="0.5 L" data-i18n="products.filters.caps.0.5 L">0.5 L</option>
+          </select>
+        </div>
+        <div class="searchbox">
+          <label class="sr-only" for="filter-search">Search</label>
+          <input id="filter-search" type="search" data-i18n="products.filters.searchPlaceholder"
+            data-i18n-attr="placeholder" placeholder="Search reference or description…" />
+        </div>
+      </section>
+      <section class="product-grid" id="product-grid">
+        <article class="product-card" data-line="Heiwa" data-stone="Aventurine" data-capacity="0.5 L">
+          <img src="products/HEIWA050S-G11.jpg" alt="Glass bottle bell HEIWA Aventurine 0.5 L">
+          <div class="pc-body">
+            <h3 id="">HEIWA050S-G11</h3>
+            <p data-i18n="products.desc.HEIWA050S-G11">Glass bottle bell HEIWA Aventurine 0.5 L</p>
+            <ul class="specs">
+              <li><strong data-i18n="common.specLabels.capacity">Capacity</strong>: <span>0.5 L</span></li>
+              <li><strong data-i18n="common.specLabels.bottle">Bottle</strong>: <span
+                  data-i18n="common.bottleColors.Stainless steel mat">Stainless steel mat</span></li>
+              <li><strong data-i18n="common.specLabels.finish">Finish</strong>: <span
+                  data-i18n="common.finishes.Mat">Mat</span></li>
+              <li><strong data-i18n="common.specLabels.stones">Stones</strong>: Aventurine (Green), Gravel</li>
+            </ul>
+          </div>
+        </article>
+        <article class="product-card" data-line="Heiwa" data-stone="Rose Quartz" data-capacity="0.5 L">
+          <img src="products/HEIWA050S-G13.jpg" alt="Glass bottle bell HEIWA Rose Quartz 0.5 L">
+          <div class="pc-body">
+            <h3 id="">HEIWA050S-G13</h3>
+            <p data-i18n="products.desc.HEIWA050S-G13">Glass bottle bell HEIWA Rose Quartz 0.5 L</p>
+            <ul class="specs">
+              <li><strong data-i18n="common.specLabels.capacity">Capacity</strong>: <span>0.5 L</span></li>
+              <li><strong data-i18n="common.specLabels.bottle">Bottle</strong>: <span
+                  data-i18n="common.bottleColors.Stainless steel mat">Stainless steel mat</span></li>
+              <li><strong data-i18n="common.specLabels.finish">Finish</strong>: <span
+                  data-i18n="common.finishes.Mat">Mat</span></li>
+              <li><strong data-i18n="common.specLabels.stones">Stones</strong>: Rose Quartz (Rose), Gravel</li>
+            </ul>
+          </div>
+        </article>
+        <article class="product-card" data-line="Heiwa" data-stone="Amethyst" data-capacity="0.5 L">
+          <img src="products/HEIWA050S-G40.jpg" alt="Glass bottle bell HEIWA Amethyst 0.5 L">
+          <div class="pc-body">
+            <h3 id="">HEIWA050S-G40</h3>
+            <p data-i18n="products.desc.HEIWA050S-G40">Glass bottle bell HEIWA Amethyst 0.5 L</p>
+            <ul class="specs">
+              <li><strong data-i18n="common.specLabels.capacity">Capacity</strong>: <span>0.5 L</span></li>
+              <li><strong data-i18n="common.specLabels.bottle">Bottle</strong>: <span
+                  data-i18n="common.bottleColors.Stainless steel mat">Stainless steel mat</span></li>
+              <li><strong data-i18n="common.specLabels.finish">Finish</strong>: <span
+                  data-i18n="common.finishes.Mat">Mat</span></li>
+              <li><strong data-i18n="common.specLabels.stones">Stones</strong>: Amethyst (Purple), Gravel</li>
+            </ul>
+          </div>
+        </article>
+        <article class="product-card" data-line="Hogo" data-stone="Turquoise" data-capacity="0.3 L">
+          <img src="products/HOGO030S-T01.jpg" alt="Glass bottle natural stones HOGO Turquoise 0.30 L">
+          <div class="pc-body">
+            <h3 id="Hogo">HOGO030S-T01</h3>
+            <p data-i18n="products.desc.HOGO030S-T01">Glass bottle natural stones HOGO Turquoise 0.30 L</p>
+            <ul class="specs">
+              <li><strong data-i18n="common.specLabels.capacity">Capacity</strong>: <span>0.3 L</span></li>
+              <li><strong data-i18n="common.specLabels.bottle">Bottle</strong>: <span
+                  data-i18n="common.bottleColors.Stainless steel mat">Stainless steel mat</span></li>
+              <li><strong data-i18n="common.specLabels.finish">Finish</strong>: <span
+                  data-i18n="common.finishes.Mat">Mat</span></li>
+              <li><strong data-i18n="common.specLabels.stones">Stones</strong>: Turquoise (Blue), Tumbled</li>
+            </ul>
+          </div>
+        </article>
+        <article class="product-card" data-line="Kanjo" data-stone="Clear Quartz" data-capacity="0.45 L">
+          <img src="products/KANJO045R-T02.jpg" alt="Glass bottle KANJO clear quartz 0.45 L">
+          <div class="pc-body">
+            <h3 id="">KANJO045R-T02</h3>
+            <p data-i18n="products.desc.KANJO045R-T02">Glass bottle KANJO clear quartz 0.45 L</p>
+            <ul class="specs">
+              <li><strong data-i18n="common.specLabels.capacity">Capacity</strong>: <span>0.45 L</span></li>
+              <li><strong data-i18n="common.specLabels.bottle">Bottle</strong>: <span
+                  data-i18n="common.bottleColors.Rose gold">Rose gold</span></li>
+              <li><strong data-i18n="common.specLabels.finish">Finish</strong>: <span
+                  data-i18n="common.finishes.Shiny">Shiny</span></li>
+              <li><strong data-i18n="common.specLabels.stones">Stones</strong>: Clear Quartz (White), Tumbled</li>
+            </ul>
+          </div>
+        </article>
+        <article class="product-card" data-line="Kanjo" data-stone="Rose Quartz" data-capacity="0.45 L">
+          <img src="products/KANJO045R-T03.jpg" alt="Glass bottle KANJO rose quartz 0.45 L">
+          <div class="pc-body">
+            <h3 id="">KANJO045R-T03</h3>
+            <p data-i18n="products.desc.KANJO045R-T03">Glass bottle KANJO rose quartz 0.45 L</p>
+            <ul class="specs">
+              <li><strong data-i18n="common.specLabels.capacity">Capacity</strong>: <span>0.45 L</span></li>
+              <li><strong data-i18n="common.specLabels.bottle">Bottle</strong>: <span
+                  data-i18n="common.bottleColors.Rose gold">Rose gold</span></li>
+              <li><strong data-i18n="common.specLabels.finish">Finish</strong>: <span
+                  data-i18n="common.finishes.Shiny">Shiny</span></li>
+              <li><strong data-i18n="common.specLabels.stones">Stones</strong>: Rose Quartz (Rose), Tumbled</li>
+            </ul>
+          </div>
+        </article>
+        <article class="product-card" data-line="Hogo" data-stone="Rose Quartz" data-capacity="0.3 L">
+          <img src="products/HOGO030S-T03.jpg" alt="Glass bottle natural stones HOGO Rose Quartz 0.30 L">
+          <div class="pc-body">
+            <h3 id="">HOGO030S-T03</h3>
+            <p data-i18n="products.desc.HOGO030S-T03">Glass bottle natural stones HOGO Rose Quartz 0.30 L</p>
+            <ul class="specs">
+              <li><strong data-i18n="common.specLabels.capacity">Capacity</strong>: <span>0.3 L</span></li>
+              <li><strong data-i18n="common.specLabels.bottle">Bottle</strong>: <span
+                  data-i18n="common.bottleColors.Stainless steel mat">Stainless steel mat</span></li>
+              <li><strong data-i18n="common.specLabels.finish">Finish</strong>: <span
+                  data-i18n="common.finishes.Mat">Mat</span></li>
+              <li><strong data-i18n="common.specLabels.stones">Stones</strong>: Rose Quartz (Rose), Tumbled</li>
+            </ul>
+          </div>
+        </article>
+        <article class="product-card" data-line="Hogo" data-stone="Aventurine" data-capacity="0.3 L">
+          <img src="products/HOGO030R-T06.jpg" alt="Glass bottle natural stones HOGO Aventurine 0.30 L">
+          <div class="pc-body">
+            <h3 id="">HOGO030R-T06</h3>
+            <p data-i18n="products.desc.HOGO030R-T06">Glass bottle natural stones HOGO Aventurine 0.30 L</p>
+            <ul class="specs">
+              <li><strong data-i18n="common.specLabels.capacity">Capacity</strong>: <span>0.3 L</span></li>
+              <li><strong data-i18n="common.specLabels.bottle">Bottle</strong>: <span
+                  data-i18n="common.bottleColors.Rose gold">Rose gold</span></li>
+              <li><strong data-i18n="common.specLabels.finish">Finish</strong>: <span
+                  data-i18n="common.finishes.Shiny">Shiny</span></li>
+              <li><strong data-i18n="common.specLabels.stones">Stones</strong>: Aventurine (Green), Tumbled</li>
+            </ul>
+          </div>
+        </article>
+        <article class="product-card" data-line="Kanjo" data-stone="Amethyst" data-capacity="0.45 L">
+          <img src="products/KANJO045S-T07.jpg" alt="Glass bottle KANJO amethyst 0.45 L">
+          <div class="pc-body">
+            <h3 id="">KANJO045S-T07</h3>
+            <p data-i18n="products.desc.KANJO045S-T07">Glass bottle KANJO amethyst 0.45 L</p>
+            <ul class="specs">
+              <li><strong data-i18n="common.specLabels.capacity">Capacity</strong>: <span>0.45 L</span></li>
+              <li><strong data-i18n="common.specLabels.bottle">Bottle</strong>: <span
+                  data-i18n="common.bottleColors.Stainless steel mat">Stainless steel mat</span></li>
+              <li><strong data-i18n="common.specLabels.finish">Finish</strong>: <span
+                  data-i18n="common.finishes.Mat">Mat</span></li>
+              <li><strong data-i18n="common.specLabels.stones">Stones</strong>: Amethyst (Purple), Tumbled</li>
+            </ul>
+          </div>
+        </article>
+        <article class="product-card" data-line="Kanjo" data-stone="Lapis Lazuli" data-capacity="0.45 L">
+          <img src="products/KANJO045S-T08.jpg" alt="Glass bottle KANJO lapis lazuli 0.45 L">
+          <div class="pc-body">
+            <h3 id="">KANJO045S-T08</h3>
+            <p data-i18n="products.desc.KANJO045S-T08">Glass bottle KANJO lapis lazuli 0.45 L</p>
+            <ul class="specs">
+              <li><strong data-i18n="common.specLabels.capacity">Capacity</strong>: <span>0.45 L</span></li>
+              <li><strong data-i18n="common.specLabels.bottle">Bottle</strong>: <span
+                  data-i18n="common.bottleColors.Stainless steel mat">Stainless steel mat</span></li>
+              <li><strong data-i18n="common.specLabels.finish">Finish</strong>: <span
+                  data-i18n="common.finishes.Mat">Mat</span></li>
+              <li><strong data-i18n="common.specLabels.stones">Stones</strong>: Lapis Lazuli (Blue), Tumbled</li>
+            </ul>
+          </div>
+        </article>
+        <article class="product-card" data-line="Heiwa" data-stone="Apatite" data-capacity="0.5 L">
+          <img src="products/HEIWA050S-G24.jpg" alt="Glass bottle bell HEIWA Apatite 0.5 L">
+          <div class="pc-body">
+            <h3 id="">HEIWA050S-G24</h3>
+            <p data-i18n="products.desc.HEIWA050S-G24">Glass bottle bell HEIWA Apatite 0.5 L</p>
+            <ul class="specs">
+              <li><strong data-i18n="common.specLabels.capacity">Capacity</strong>: <span>0.5 L</span></li>
+              <li><strong data-i18n="common.specLabels.bottle">Bottle</strong>: <span
+                  data-i18n="common.bottleColors.Stainless steel mat">Stainless steel mat</span></li>
+              <li><strong data-i18n="common.specLabels.finish">Finish</strong>: <span
+                  data-i18n="common.finishes.Mat">Mat</span></li>
+              <li><strong data-i18n="common.specLabels.stones">Stones</strong>: Apatite (Blue), Gravel</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <img src="logo/logo_ishimizu_beige.png" alt="Ishimizu logo light">
+      </div>
+      <nav class="footer-nav">
+        <a href="models.html" data-i18n="common.nav.models">Models</a>
+        <a href="products.html" data-i18n="common.nav.products">Products</a>
+        <a href="stones.html" data-i18n="common.nav.stones">Stones</a>
+        <a href="story.html" data-i18n="common.nav.story">Our Story</a>
+      </nav>
+      <p>&copy; <span id="year"></span> Ishimizu — <span data-i18n="common.footer.rights">All rights reserved.</span>
+      </p>
+    </footer>
+    <script src="i18n.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

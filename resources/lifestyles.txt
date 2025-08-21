@@ -1,0 +1,5 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 48E6-6246
+
+ Directory of c:\DVT\besorunner\ishimizu\resources\lifestyles
+
